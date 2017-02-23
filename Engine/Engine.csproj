@@ -43,6 +43,7 @@
     <Compile Include="CPU.cs" />
     <Compile Include="Deck.cs" />
     <Compile Include="Human.cs" />
+    <Compile Include="Move.cs" />
     <Compile Include="Pile.cs" />
     <Compile Include="Player.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

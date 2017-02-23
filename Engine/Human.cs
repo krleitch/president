@@ -8,6 +8,11 @@ namespace Engine
 {
     public class Human : Player
     {
+
+        public Human (string name)
+        {
+            this.name = name;
+        }
         public override void TurnStart()
         {
 

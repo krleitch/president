@@ -8,7 +8,7 @@ namespace Engine
 {
     public class Pile
     {
-        private List<Card> pile;   
+        private List<Card> pile { get; }   
 
         public Pile(int numDecks)
         {
@@ -33,5 +33,17 @@ namespace Engine
             }
             return stringBuilder.ToString();
         }   
+
+        public int length ()
+        {
+            return pile.Count();
+        } 
+
+        public Card pop ()
+        {
+            Card temp = pile[pile.Count - 1];
+            pile.RemoveAt(pile.Count - 1);
+            return temp;
+        }
     }
 }

@@ -8,3 +8,8 @@ C:\Users\Bruce\workspace\president\Engine\obj\Debug\ClassLibrary1.dll
 C:\Users\Bruce\workspace\president\Engine\obj\Debug\ClassLibrary1.pdb
 C:\Users\Bruce\workspace\president\Engine\bin\Debug\ClassLibrary1.dll
 C:\Users\Bruce\workspace\president\Engine\bin\Debug\ClassLibrary1.pdb
+C:\Users\kleitch\Documents\Visual Studio 2013\Projects\President\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+C:\Users\kleitch\Documents\Visual Studio 2013\Projects\President\Engine\obj\Debug\ClassLibrary1.dll
+C:\Users\kleitch\Documents\Visual Studio 2013\Projects\President\Engine\obj\Debug\ClassLibrary1.pdb
+C:\Users\kleitch\Documents\Visual Studio 2013\Projects\President\Engine\bin\Debug\ClassLibrary1.dll
+C:\Users\kleitch\Documents\Visual Studio 2013\Projects\President\Engine\bin\Debug\ClassLibrary1.pdb

@@ -8,8 +8,40 @@ namespace Engine
 {
     public abstract class Player
     {
-        List<Card> hand;
+        private List<Card> hand;
+        public string name;
+
 
         public abstract void TurnStart();
+
+        public Player()
+        {
+            hand = new List<Card>();
+        }
+
+        public void handAddCard (Card card)
+        {
+            hand.Add(card);
+        }
+
+        public void handRemoveCard (Card card)
+        {
+            hand.Remove(card);
+        }
+
+        public bool handIsEmpty ()
+        {
+            return hand.Count() == 0;
+        }
+        public string handToString()
+        {
+            System.Text.StringBuilder stringBuilder = new System.Text.StringBuilder();
+            foreach (Card card in hand)
+            {
+                stringBuilder.Append(card.ToString());
+                stringBuilder.Append("\n");
+            }
+            return stringBuilder.ToString();
+        }
     }
 }

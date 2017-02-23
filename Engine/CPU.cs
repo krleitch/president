@@ -8,6 +8,11 @@ namespace Engine
 {
     public class CPU : Player
     {
+
+        public CPU ()
+        {
+            this.name = "Robot";
+        }
         public override void TurnStart()
         {
 

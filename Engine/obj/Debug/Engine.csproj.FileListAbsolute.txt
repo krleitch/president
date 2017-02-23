@@ -3,3 +3,8 @@ c:\users\kleitch\documents\visual studio 2013\Projects\President\ClassLibrary1\b
 c:\users\kleitch\documents\visual studio 2013\Projects\President\ClassLibrary1\bin\Debug\ClassLibrary1.pdb
 c:\users\kleitch\documents\visual studio 2013\Projects\President\ClassLibrary1\obj\Debug\ClassLibrary1.dll
 c:\users\kleitch\documents\visual studio 2013\Projects\President\ClassLibrary1\obj\Debug\ClassLibrary1.pdb
+C:\Users\Bruce\workspace\president\Engine\obj\Debug\Engine.csprojResolveAssemblyReference.cache
+C:\Users\Bruce\workspace\president\Engine\obj\Debug\ClassLibrary1.dll
+C:\Users\Bruce\workspace\president\Engine\obj\Debug\ClassLibrary1.pdb
+C:\Users\Bruce\workspace\president\Engine\bin\Debug\ClassLibrary1.dll
+C:\Users\Bruce\workspace\president\Engine\bin\Debug\ClassLibrary1.pdb

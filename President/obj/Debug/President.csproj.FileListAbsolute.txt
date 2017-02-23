@@ -9,3 +9,14 @@ c:\users\kleitch\documents\visual studio 2013\Projects\President\President\bin\D
 c:\users\kleitch\documents\visual studio 2013\Projects\President\President\bin\Debug\ClassLibrary1.pdb
 c:\users\kleitch\documents\visual studio 2013\Projects\President\President\obj\Debug\President.exe
 c:\users\kleitch\documents\visual studio 2013\Projects\President\President\obj\Debug\President.pdb
+C:\Users\Bruce\workspace\president\President\obj\Debug\President.csprojResolveAssemblyReference.cache
+C:\Users\Bruce\workspace\president\President\obj\Debug\President.President.resources
+C:\Users\Bruce\workspace\president\President\obj\Debug\President.Properties.Resources.resources
+C:\Users\Bruce\workspace\president\President\obj\Debug\President.csproj.GenerateResource.Cache
+C:\Users\Bruce\workspace\president\President\bin\Debug\President.exe.config
+C:\Users\Bruce\workspace\president\President\bin\Debug\President.exe
+C:\Users\Bruce\workspace\president\President\bin\Debug\President.pdb
+C:\Users\Bruce\workspace\president\President\bin\Debug\ClassLibrary1.dll
+C:\Users\Bruce\workspace\president\President\bin\Debug\ClassLibrary1.pdb
+C:\Users\Bruce\workspace\president\President\obj\Debug\President.exe
+C:\Users\Bruce\workspace\president\President\obj\Debug\President.pdb

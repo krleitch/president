@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class CPU : Player
+    public abstract class Player
     {
+        List<Card> hand;
+
+        public abstract void TurnStart();
     }
 }

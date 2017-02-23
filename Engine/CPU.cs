@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public class Human : Player
+    public class CPU : Player
     {
+        public override void TurnStart()
+        {
+
+        }
     }
 }

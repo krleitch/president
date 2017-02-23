@@ -17,7 +17,7 @@ namespace Engine
             this.value = value;
         }
 
-        public string ToString () {
+        public override string ToString () {
             return value.ToString() + " of " + suit.ToString();
         }
     }

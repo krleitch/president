@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public abstract class Player
+    public class Human : Player
     {
-        List<Card> hand;
+        public override void TurnStart()
+        {
 
-        public abstract void play();
+        }
     }
 }

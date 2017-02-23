@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+# Visual Studio 15
+VisualStudioVersion = 15.0.26206.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "President", "President\President.csproj", "{9603B965-9662-462C-9EB1-978AC293E338}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "ClassLibrary1\Engine.csproj", "{54B26729-3DB4-40AC-AB0D-58143021C323}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Engine", "Engine\Engine.csproj", "{54B26729-3DB4-40AC-AB0D-58143021C323}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

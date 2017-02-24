@@ -20,6 +20,8 @@ namespace Engine
                     pile.Add(c);
                 }
             }
+            pile.Add(new Card(Suit.Joker, 15));
+
             pile.Shuffle();
         }
 

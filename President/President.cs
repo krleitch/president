@@ -38,6 +38,7 @@ namespace President
             }
             foreach (Player player in players)
             {
+                player.handSort();
                 Console.WriteLine(player.name);
                 Console.WriteLine(player.handToString());
             }

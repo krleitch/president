@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    class Move
+    //
+    // A way to keep track of the card and the amount
+    //
+
+    public class Move
     {
-        private int value { get; }
-        private int count { get; }
+        public int value { get; }
+        public int count { get; }
 
         public Move (int value, int count)
         {

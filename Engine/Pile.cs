@@ -22,19 +22,9 @@ namespace Engine
             }
             pile.Add(new Card(Suit.Joker, 15));
 
+            // Shuffle is in Utility.cs
             pile.Shuffle();
         }
-
-        public override string ToString()
-        {
-            System.Text.StringBuilder stringBuilder = new System.Text.StringBuilder();
-            foreach (Card card in pile)
-            {
-                stringBuilder.Append(card.ToString());
-                stringBuilder.Append("\n");
-            }
-            return stringBuilder.ToString();
-        }   
 
         public int length ()
         {
@@ -47,5 +37,20 @@ namespace Engine
             pile.RemoveAt(pile.Count - 1);
             return temp;
         }
+
+        //
+        // Override
+        //
+        public override string ToString()
+        {
+            System.Text.StringBuilder stringBuilder = new System.Text.StringBuilder();
+            foreach (Card card in pile)
+            {
+                stringBuilder.Append(card.ToString());
+                stringBuilder.Append("\n");
+            }
+            return stringBuilder.ToString();
+        }   
+
     }
 }

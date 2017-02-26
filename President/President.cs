@@ -15,20 +15,29 @@ namespace President
     {
 
         private Pile pile;
+        private DiscardPile discardPile;
         private List<Player> players;
 
         public President()
         {
             InitializeComponent();
+            //Change so that runGame is run from a start button
+            runGame();
+        }
+
+        private void runGame()
+        {
+            // Will change to get number of piles from GUI field
             pile = new Pile(1);
             players = new List<Player>();
+            discardPile = new DiscardPile();
             players.Add(new Human("Robert"));
             players.Add(new Human("Bobert"));
             players.Add(new Human("Cobert"));
             players.Add(new Human("Dobert"));
             players.Add(new Human("Fobert"));
 
-            //Console.WriteLine(pile.ToString());
+            //Distributes cards to players then sorts
             while (pile.length() / players.Count() > 0)
             {
                 foreach (Player player in players)
@@ -39,8 +48,18 @@ namespace President
             foreach (Player player in players)
             {
                 player.handSort();
+                // Debug
                 Console.WriteLine(player.name);
                 Console.WriteLine(player.handToString());
+            }
+
+            while (true)
+            {
+                foreach(Player p in players){
+                    while (discardPile.push(p.TurnStart())) ;
+                    // Need to discuss this more
+                }
+                //Add logic to break and check for winners
             }
         }
 

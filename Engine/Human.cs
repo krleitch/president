@@ -13,9 +13,10 @@ namespace Engine
         {
             this.name = name;
         }
-        public override void TurnStart()
+        public override Move TurnStart()
         {
-
+            // TODO: Discuss this
+            return null;
         }
     }
 }

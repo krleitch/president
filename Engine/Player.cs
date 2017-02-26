@@ -12,7 +12,7 @@ namespace Engine
         public string name;
 
 
-        public abstract void TurnStart();
+        public abstract Move TurnStart();
 
         public Player()
         {

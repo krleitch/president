@@ -20,6 +20,7 @@ namespace Engine
                     cardList.Add(new Card(suit, i));
                 }
             }
+            cardList.Add(new Card(Suit.Joker, 14));
         }
 
         public override string ToString()

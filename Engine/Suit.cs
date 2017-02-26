@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Engine
 {
-    public enum Suit {Spade, Diamond, Club, Heart};
+    public enum Suit {Spade, Diamond, Club, Heart, Joker};
 }

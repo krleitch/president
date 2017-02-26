@@ -8,7 +8,7 @@ namespace Engine
 {
     public abstract class Player
     {
-        private List<Card> hand;
+        private List<Card> hand { get; }
         public string name;
 
 
@@ -22,6 +22,11 @@ namespace Engine
         public void handAddCard (Card card)
         {
             hand.Add(card);
+        }
+
+        public void handSort()
+        {
+            hand.Sort();
         }
 
         public void handRemoveCard (Card card)
